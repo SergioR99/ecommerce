@@ -39,13 +39,13 @@ export function useListProducts (url:string) {
     
     useEffect(() => {
     fetch (url)
-        .then((res: { json: () => any; }) => res.json())
+        .then((res) => res.json())
         .then((data: []) => {
             // console.log(data);
             setLoading(false)
             setListProducts(data);
         })
-        .catch((err: any) => {
+        .catch((err: unknown) => {
             console.error(err)
             setLoading(false)
         })

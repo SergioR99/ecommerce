@@ -3,7 +3,7 @@ import "./cart.css"
 import CloseIco from "../util/close";
 import TrashIco from "../util/trash";
 
-const CartItems = ({openCart, setopenCart}: {openCart: Boolean, setopenCart: any}) => {
+const CartItems = ({openCart, setopenCart}: {openCart: boolean, setopenCart: React.Dispatch<React.SetStateAction<boolean>>}) => {
     const carrito = useCartStore((state) => state.carrito);
     const deleteCart = useCartStore(state => state.deleteCart);
     

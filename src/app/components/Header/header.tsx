@@ -5,9 +5,10 @@ import CarritoIco from "../util/carrito";
 import CartItems from "./cart";
 import "./styles.css"
 import { useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
-    const [openCart, setopenCart] = useState<Boolean>(false)
+    const [openCart, setopenCart] = useState<boolean>(false)
 
     const carrito = useCartStore((state) => state.carrito);
 
@@ -19,7 +20,7 @@ const Header = () => {
                     <LogoVelez/>
                 </div>
                 <div className="header--items">
-                    <a href="/" className="header--items__link">Productos</a>
+                    <Link href="/" className="header--items__link">Productos</Link>
                     <div className="header--carrito" onClick={() => setopenCart(true)}>
                         <p className="header--carrito__text">Carrito de compra</p>
                         <span>
