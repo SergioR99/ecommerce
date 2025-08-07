@@ -32,7 +32,7 @@
     font-weight: 400;
 }
 
-.productItem__sizes--buttons {
+.productItem__sizes--buttonsDetail {
     padding: 8px;
     color: #313131;
     margin: 8px 8px 0 0;
@@ -50,7 +50,7 @@
     margin-top: 8px;
 }
 
-.productItem__sizes--buttonsActive, .productItem__sizes--buttons:hover {
+.productItem__sizes--buttonsDetailActive, .productItem__sizes--buttonsDetail:hover {
     background: #cfcfcf;
 }
 
@@ -63,6 +63,7 @@
     margin: 0 0 16px;
     transition: all ease 0.5s;
     cursor: pointer;
+    color: #FFFFFF;
 }
 
 .detailProduct__add:hover {

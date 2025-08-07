@@ -57,7 +57,7 @@ const InfoProduct = ({ product }: { product: ProductInfo }) => {
                     (allTallas.map((talla) => (
                         <button 
                             key={talla}
-                            className={`productItem__sizes--buttons ${selectedTalla === talla ? "productItem__sizes--buttonsActive" : ""}`} 
+                            className={`productItem__sizes--buttonsDetail ${selectedTalla === talla ? "productItem__sizes--buttonsDetailActive" : ""}`} 
                             onClick={() => setSelectedTalla(talla)}
                         >
                             {talla}
@@ -76,7 +76,7 @@ const InfoProduct = ({ product }: { product: ProductInfo }) => {
                         <button
                             key={color}
                             onClick={() => setSelectedColor(color)}
-                            className={`productItem__sizes--buttons ${selectedColor === color ? "productItem__sizes--buttonsActive" : ""}`}
+                            className={`productItem__sizes--buttonsDetail ${selectedColor === color ? "productItem__sizes--buttonsDetailActive" : ""}`}
                         >
                             {color}
                         </button>

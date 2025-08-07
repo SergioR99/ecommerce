@@ -124,3 +124,7 @@
     color: #d72222;
     cursor: pointer;
 }
+
+.carrtioCont--total__price, .carrtioCont--total__copy {
+    color: #FFF;
+}
