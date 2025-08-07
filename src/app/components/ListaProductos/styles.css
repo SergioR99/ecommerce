@@ -190,7 +190,7 @@
     }
 
     .productItem {
-        grid-column: span 1;
+        grid-column: span 4;
     }
 
     .productItem__sizes--buttons {
