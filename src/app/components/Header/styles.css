@@ -1,0 +1,59 @@
+header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.header--logo__text {
+    opacity: 0;
+    position: absolute;
+    font-size: 0.1px;
+}
+
+.header--items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.header--items__link{
+    color: #313131;
+    letter-spacing: 1px;
+    padding: 0 2rem 0.5rem;
+    font-weight: 600;
+    transition: all ease 0.5s;
+    border-bottom: 1px solid #fff;
+}
+
+.header--items__link:hover{
+    border-bottom: 1px solid #313131;
+}
+
+.header--carrito {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.header--carrito__text {
+    opacity: 0;
+    position: absolute;
+    font-size: 0.1px;
+}
+
+.header--carrito__counter {
+    position: absolute;
+    padding: 0.4rem;
+    background: #afafaf;
+    font-size: 0.6rem;
+    border-radius: 50%;
+    width: 24px;
+    text-align: center;
+    bottom: 45%;
+    left: 80%;
+}

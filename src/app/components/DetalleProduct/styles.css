@@ -1,0 +1,95 @@
+.detailProduct__info--title{
+    color: #313131;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.detailProduct__info--brand {
+    color: #313131;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.detailProduct__info--price{
+    color: #000;
+    text-align: left;
+    margin: 8px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.detailProduct__tallas{
+    margin-bottom: 1rem;
+}
+
+.detailProduct__tallas--copy {
+    color: #313131;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.productItem__sizes--buttons {
+    padding: 8px;
+    color: #313131;
+    margin: 8px 8px 0 0;
+    border: 1px solid #313131;
+    background: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.detailProduct__tallas--alert {
+    color: #f90e0e;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.productItem__sizes--buttonsActive, .productItem__sizes--buttons:hover {
+    background: #cfcfcf;
+}
+
+.detailProduct__add {
+    width: 100%;
+    background: #000000;
+    padding: 1rem;
+    border: 1px solid #000000;
+    font-size: 0.95rem;
+    margin: 0 0 16px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.detailProduct__add:hover {
+    background: #2f2f2f;
+    border: 1px solid #2f2f2f;
+    box-shadow: 1px 1px 6px 2px #9d9d9d;
+}
+
+.detailProduct__info--descrip {
+    color: #313131;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.detailProduct__info--descrip--title{
+    margin-bottom: 8px;
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+    .detailProduct__info { padding: 5rem !important; }
+}
+
+@media (max-width: 569px) {
+    .imageVH { height: 52vh !important; }
+}
+
+@media (min-width: 570px) and (max-width: 768px) {
+    .imageVH { height: 65vh !important; }
+}
